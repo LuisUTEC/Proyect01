@@ -1,0 +1,20 @@
+#include <iostream>
+#include <cmath>
+
+using namespace std;
+
+const double PI = 3.1416;
+
+int main() {
+    float r=0;
+    float result=0;
+
+
+    cout << "Ingrese el angulo: ";
+    cin >> r;
+
+    result = r * 180/ PI;
+
+    cout << result << endl;
+    return 0;
+}
